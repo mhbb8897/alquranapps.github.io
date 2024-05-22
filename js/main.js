@@ -47,7 +47,6 @@ function loadData() {
           const translation = document.getElementById(
             `translation-${numberSurah}`
           );
-          translation.innerHTML = ""; // Clear previous content
           button.disabled = true;
           fetch(
             `https://raw.githubusercontent.com/penggguna/QuranJSON/master/surah/${numberSurah}.json`
@@ -86,7 +85,8 @@ function loadData() {
       // spinner and show content
       setTimeout(() => {
         document.getElementById("spinner-loading").style.display = "none";
-        document.getElementById("content").style.display = "block";
+        document.getElementById("content").style.display = "flex";
+        document.getElementById("content").style.flexDirection = "column";
       }, 800);
     });
 }
