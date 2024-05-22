@@ -26,14 +26,14 @@ button {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Ensure the header is on top */
+  z-index: 1000;
 }
 
 main {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding: 60px 0 0 0; /* Add top padding to offset the fixed header */
+  padding: 60px 0 0 0; 
 }
 
 .input_section {
@@ -142,7 +142,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-self: center;
-  align-items: center; /* Center content horizontally */
+  align-items: center; 
 }
 
 .surah_shelf > h2 {
@@ -160,7 +160,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto; /* Center spinner within its container */
+  margin: 20px auto; 
 }
 
 @keyframes spin {
@@ -177,7 +177,7 @@ main {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  display: none; /* Initially hide the content */
+  display: none; 
   width: 100%;
 }
 
@@ -222,8 +222,8 @@ footer {
   text-align: center;
   padding: 12px;
   display: flex;
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  justify-content: center; 
+  align-items: center; 
   font-size: large;
 }
 
@@ -243,6 +243,6 @@ footer p a {
 footer p img {
   max-width: 30px;
   max-height: 30px;
-  margin-left: 5px; /* Add some margin to the left of the image */
-  margin-right: 5px; /* Add some margin to the left of the image */
+  margin-left: 5px;
+  margin-right: 5px;
 }
