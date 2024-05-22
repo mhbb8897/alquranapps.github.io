@@ -87,7 +87,7 @@ function loadData() {
       setTimeout(() => {
         document.getElementById("spinner-loading").style.display = "none";
         document.getElementById("content").style.display = "block";
-      }, 10000);
+      }, 800);
     });
 }
 
