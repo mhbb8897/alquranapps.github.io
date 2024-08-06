@@ -18,4 +18,4 @@ Aplikasi ini juga saya dokumentasikan untuk tugas akhir dalam matakuliah Artific
 ![Alt Text](https://github.com/mhbb8897/alquranapps.github.io/raw/master/screenshot.png)
 
 ## Terimakasih
-Saya ingin mengucapkan terima kasih kepada Allah SWT dan [@penggguna](https://github.com/penggguna) atas data yang saya butuhkan dalam membuat aplikasi ini.
+Saya ingin mengucapkan terimakasih terutama kepada Allah SWT atas rahmatnya dan [@penggguna](https://github.com/penggguna), atas data yang saya butuhkan dalam membuat aplikasi ini.
